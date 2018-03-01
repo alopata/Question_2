@@ -1,11 +1,10 @@
-//Adam Lopata
 
 public class FindLast {
 
 	public static void main(String[] args) {
 		int[] array = {1, 2, 3, 4, 5, 2};
 		
-		System.out.println(findLastThingy(array, 2, 0))
+		System.out.println(findLast(array, 2, 0));
 	}
 
 	
@@ -16,5 +15,4 @@ public class FindLast {
 		}
 		return -1;
 	}
-}
 }
